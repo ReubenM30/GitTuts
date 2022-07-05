@@ -1,0 +1,7 @@
+git add --a     -adds all files to staging area
+rm -rf.git      -removes as git repo
+touch error.log -created new file
+
+inside .gitignore
+/dir/           -ignore the dir folder
+static/dir      -ignore the dir folder inside static
