@@ -1,6 +1,10 @@
-git add --a     -adds all files to staging area
-rm -rf.git      -removes as git repo
-touch error.log -created new file
+git add --a                                      -adds all files to staging area
+rm -rf.git                                       -removes as git repo
+touch error.log                                  -created new file
+git commit -a -m "commit message"                -directly commit a tracked file(instead of adding to staging area and then commiting) 
+                                                  but if its a new file then you got to add to staging area
+git rm first.text                                -deletes the files and stages the change otherwise normal deletion wouldnt stage it
+git mv first.text first_renamed.txt              -renames and stages  
 
 inside .gitignore
 /dir/           -ignore the dir folder
