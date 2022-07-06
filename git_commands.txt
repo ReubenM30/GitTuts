@@ -7,8 +7,8 @@ git rm first.text                                -deletes the files and stages t
 git mv first.text first_renamed.txt              -renames and stages
 git rm --cached ignore.txt                       -untrackes a file (incase it was tracked and you dont want it to)  
 git restore --staged first.txt                   -unstage
-
-
+git checkout -- first.txt                        -to revert back to old content (the commited content)
+git checkout -f
 
 
 
