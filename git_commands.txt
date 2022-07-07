@@ -9,9 +9,17 @@ git rm --cached ignore.txt                       -untrackes a file (incase it wa
 git restore --staged first.txt                   -unstage
 git checkout -- first.txt                        -to revert back to old content (the commited content)
 git checkout -f
+git restore first.txt
 
 
+Setting up with remote repo
+git remote
+git remote -v
+git remote add origin https://github.com/ReubenM30/GitTuts.git
+git push -u origin master
 
+
+git config --global alias.st status              -setting alias
 
 inside .gitignore
 /dir/           -ignore the dir folder
